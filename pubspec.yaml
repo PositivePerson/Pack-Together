@@ -1,0 +1,33 @@
+name: pack_together
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-116.0.dev <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  get_storage: ^2.0.3
+
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_lints: ^2.0.0
+  flutter_svg: ^1.1.3
+  
+flutter:
+  assets:
+    - assets/svg/
+    - assets/fonts
+  uses-material-design: true
